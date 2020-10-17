@@ -7,8 +7,8 @@ html, body, #home {
 }
 
 body {
-    background: url(../img/capa.png),
-                linear-gradient(50deg,#ff4169,#7c26f8);
+    background: url(../img/capa-studio-eos-3.png),
+                linear-gradient(50deg,#ff4169,#f861d2);
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,7 +24,7 @@ nav.navbar-transparente {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #9bf0e1;
+    color: #f30ee0;
 }
 
 .navbar-light .navbar-toggler {
@@ -122,6 +122,30 @@ nav.navbar-transparente {
     padding-left: 80px;
 }
 
+/* Seção cursos */
+
+.btn-custom2 {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s,color 0.4s;
+    padding: 5px 10px;
+}
+
+.btn-rosa {
+    background: #e639ce;
+}
+.btn-rosa:hover {
+    background: #f30ee0;
+}
+
+.btn-rosa:hover a {
+    color: white;
+    text-decoration: none;
+    background: #f30ee0;
+}
 /* Rodapé */
 footer {
     background: #000;
