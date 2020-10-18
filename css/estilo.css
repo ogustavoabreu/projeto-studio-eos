@@ -66,12 +66,13 @@ nav.navbar-transparente {
 }
 
 .btn-branco {
-    border: 2px solid white;
+    background-color: white;
+    color: #f30ee0;
 }
 
 .btn-branco:hover {
-    background-color: white;
-    color: black;
+    background-color: #f30ee0;
+    color: white;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -83,10 +84,14 @@ nav.navbar-transparente {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#servicos {
+#unhas {
     background: white;
 }
-#recursos {
+#cilios {
+    background: palevioletred;
+    color: white;
+}
+#sobrancelhas {
     background: palevioletred;
     color: white;
 }
@@ -94,15 +99,23 @@ nav.navbar-transparente {
     background: white;
 }
 
-#servicos h2,h3 {
+#unhas h2,h3 {
     color: #7c25f8;
 }
 
-#recursos h2 {
+#cilios h2 {
     color: white;
 }
 
-#recursos h3 {
+#cilios h3 {
+    color: #9bf0e1;
+}
+
+#sobrancelhas h2 {
+    color: white;
+}
+
+#sobrancelhas h3 {
     color: #9bf0e1;
 }
 
