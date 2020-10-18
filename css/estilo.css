@@ -7,9 +7,10 @@ html, body, #home {
 }
 
 body {
-    background: url(../img/capa-studio-eos-3.png),
+    background: url(../img/Unhas\ 2.jpg) no-repeat,
                 linear-gradient(50deg,#ff4169,#f861d2);
     background-attachment: fixed;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
