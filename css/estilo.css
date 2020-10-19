@@ -7,7 +7,7 @@ html, body, #home {
 }
 
 body {
-    background: url(../img/Unhas\ 2.jpg) no-repeat,
+    background: url(../img/background-1.png) no-repeat,
                 linear-gradient(50deg,#ff4169,#f861d2);
     background-attachment: fixed;
     background-position: center;
@@ -41,6 +41,9 @@ nav.navbar-transparente {
 .link-branco{
     color: white;
 }
+.link-rosa{
+    color: rgb(212, 42, 99);
+}
 
 /* Capa */
 .capa {
@@ -52,7 +55,6 @@ nav.navbar-transparente {
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    text-transform: uppercase;
     transition: background 0.4s,color 0.4s;
     padding: 10px 20px;
 }
@@ -76,8 +78,9 @@ nav.navbar-transparente {
     color: white;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    width: 5%;
+.btn-branco:hover a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Estrutura de conteúdos */
@@ -85,16 +88,54 @@ nav.navbar-transparente {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#unhas {
+#sobre {
     background: white;
+    color:rgb(212, 42, 99);
 }
+#sobre h2 {
+    color: rgb(212, 42, 99);
+}
+#sobre p {
+    font-size: 1.2em;
+    color: rgb(212, 42, 99);
+}
+
+#foto1{
+    background: url(../img/background-cilios.png) no-repeat;
+    background-position: center;
+}
+
+#foto1 h2{
+    color: white;
+}
+
 #cilios {
-    background: palevioletred;
+    background: rgb(212, 42, 99);
     color: white;
 }
+
 #sobrancelhas {
-    background: palevioletred;
+    background:#ff008a;
     color: white;
+}
+
+#foto2{
+    background: url(../img/background-3.png) no-repeat;
+    background-position: center;
+}
+
+#unhas {
+    background: #560232;
+}
+
+#foto3 {
+    background: url(../img/background-4.png) no-repeat;
+    background-color: inherit;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
 #cursos {
     background: white;
@@ -109,7 +150,7 @@ nav.navbar-transparente {
 }
 
 #cilios h3 {
-    color: #9bf0e1;
+    color: white;
 }
 
 #sobrancelhas h2 {
@@ -124,17 +165,6 @@ nav.navbar-transparente {
     color: rgb(211, 8, 160);
 }
 
-.albuns {
-    padding: 10px 0;
-}
-
-.rotacionar {
-    -ms-transform: rotate(30deg);
-    -moz-transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    padding-left: 80px;
-}
 
 /* Seção cursos */
 
@@ -162,7 +192,7 @@ nav.navbar-transparente {
 }
 /* Rodapé */
 footer {
-    background: #000;
+    background: black;
     padding: 50px 0 20px 0;
     position: relative;
 }
@@ -193,7 +223,7 @@ footer ul li {
 }
 /* Tipografia */
 h1 {
-    font-weight: 900;
+    font-weight: 500;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
