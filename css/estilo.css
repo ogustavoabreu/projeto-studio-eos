@@ -91,6 +91,17 @@ nav.navbar-transparente {
 #sobre {
     background: white;
     color:rgb(212, 42, 99);
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 430px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
 }
 #sobre h2 {
     color: rgb(212, 42, 99);
@@ -102,7 +113,12 @@ nav.navbar-transparente {
 
 #foto1{
     background: url(../img/background-cilios.png) no-repeat;
+    background-color: inherit;
     background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
 
 #foto1 h2{
@@ -112,18 +128,47 @@ nav.navbar-transparente {
 #cilios {
     background: rgb(212, 42, 99);
     color: white;
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 430px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
 }
 
 #sobrancelhas {
     background:#ff008a;
     color: white;
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 430px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
 }
 
 #foto2{
     background: url(../img/background-3.png) no-repeat;
+    background-color: inherit;
     background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
-
+#foto2 h2{
+    color: white;
+}
 #unhas {
     background: #560232;
 }
@@ -139,6 +184,17 @@ nav.navbar-transparente {
 }
 #cursos {
     background: white;
+    position: relative;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 430px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    box-sizing: border-box;
 }
 
 #unhas h2,h3 {
