@@ -47,7 +47,13 @@ nav.navbar-transparente {
 
 /* Capa */
 .capa {
-    text-align: center;
+    text-align: left;
+    margin-top: 30%;
+    margin-left: 0;
+}
+
+.capa h2 {
+    color: white;
 }
 
 .btn-custom {
