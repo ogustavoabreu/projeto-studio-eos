@@ -47,8 +47,8 @@ nav.navbar-transparente {
 
 /* Capa */
 .capa {
-    text-align: left;
-    margin-top: 30%;
+    text-align: left center;
+    margin-top: 20%;
     margin-left: 0;
 }
 
@@ -273,9 +273,9 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
+    font-size: 2.5em;
+    font-weight: 650;
+    letter-spacing: -0.02em;
 }
 
 h3 {
@@ -291,16 +291,26 @@ h3 {
         margin: 10px 15px;
         font-size: 1em;
     }
+    h2{
+        font-size: 2em;
+    }
+    .capa h2 {
+        margin-top: 100%;
+        font-size: 1.5em;
+    }
  }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    h1{
-        font-size: 3em;
+    h2{
+        font-size: 2em;
     }
     .btn-custom {
         margin: 10px 15px;
-
+    }
+    .capa h2 {
+        margin-top: 100%;
+        font-size: 1.5em;
     }
  }
 
@@ -308,6 +318,10 @@ h3 {
 @media (min-width: 768px) and (max-width: 991.98px) { 
     h1{
         font-size: 4em;
+    }
+    .capa h2 {
+        margin-top: 100%;
+        font-size: 1.5em;
     }
  }
 
