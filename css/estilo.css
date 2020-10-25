@@ -32,11 +32,6 @@ nav.navbar-transparente {
     color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.5) ;
 }
-.divisor {
-    width: 1px;
-    background: white;
-    margin: 12px 15px;
-}
 
 .link-branco{
     color: white;
@@ -111,35 +106,23 @@ nav.navbar-transparente {
 }
 
 #cilios {
-    background: rgb(212, 42, 99);
+    background: #ce6a8a;
     color: white;
-    position: relative;
-    background-size: cover;
-    background-position: 50%;
-    min-height: 500px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 1em;
-    box-sizing: border-box;
+}
+
+#cilios h3 {
+    color: #320e1f;
 }
 
 #sobrancelhas {
-    background:#ff008a;
-    color: white;
-    position: relative;
-    background-size: cover;
-    background-position: 50%;
-    min-height: 500px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background:#fad7e2;
+    color: #320e1f;
     padding: 1em;
-    box-sizing: border-box;
+}
+
+#sobrancelhas h3 {
+    color: #ce6a8a;
 }
 
 #foto2{
@@ -156,18 +139,13 @@ nav.navbar-transparente {
     color: white;
 }
 #unhas {
-    background: #560232;
-    position: relative;
-    background-size: cover;
-    background-position: 50%;
-    min-height: 500px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: #320e1f;
+    color: #fad7e2;
     padding: 1em;
-    box-sizing: border-box;
+}
+
+#unhas h3 {
+    color: #ce6a8a;
 }
 
 #foto3 {
@@ -184,10 +162,6 @@ nav.navbar-transparente {
     background: white;
 }
 
-#unhas h2,h3 {
-    color: #7c25f8;
-}
-
 #cilios h2 {
     color: white;
 }
@@ -196,18 +170,13 @@ nav.navbar-transparente {
     color: white;
 }
 
-#sobrancelhas h2 {
-    color: white;
-}
-
-#sobrancelhas h3 {
-    color: #9bf0e1;
-}
-
-#cursos h2, h3{
+#cursos h2{
     color: rgb(211, 8, 160);
 }
 
+#cursos h3{
+    color: rgb(211, 8, 160);
+}
 
 /* Seção cursos */
 
@@ -273,7 +242,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 650;
     letter-spacing: -0.02em;
 }
@@ -292,18 +261,23 @@ h3 {
         font-size: 1em;
     }
     h2{
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .capa h2 {
         margin-top: 100%;
         font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.5em;
+        font-weight: 600;
+        letter-spacing: -0.04em;
     }
  }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
     h2{
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .btn-custom {
         margin: 10px 15px;
@@ -311,6 +285,11 @@ h3 {
     .capa h2 {
         margin-top: 100%;
         font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.5em;
+        font-weight: 600;
+        letter-spacing: -0.04em;
     }
  }
 
