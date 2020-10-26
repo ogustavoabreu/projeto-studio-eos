@@ -9,9 +9,11 @@ html, body, #home {
 body {
     background: url(../img/background-capa-web.jpg) no-repeat,
                 linear-gradient(50deg,#ff4169,#f861d2);
-    background-attachment: fixed;
-    background-position: center;
-    font-family: Arial, Helvetica, sans-serif;
+                background-color: inherit;
+                background-size: cover;
+                background-position: 50%;
+                box-sizing: border-box;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
 }
 
 /* Barra de navegação */
@@ -49,6 +51,11 @@ nav.navbar-transparente {
 
 .capa h2 {
     color: white;
+    line-height: 1.2;
+}
+
+.capa a {
+    font-size: 1.3em;
 }
 
 /*Botões do site*/
@@ -62,20 +69,21 @@ nav.navbar-transparente {
     padding: 10px 20px;
 }
 
-.btn-branco {
-    background-color: white;
-    color: #ce6a8a;
+.btn-vinho {
+    background-color: transparent;
+    border-color: #320e1f;
+    border-width: 2px;
 }
-.btn-branco a {
-    color: #ce6a8a;
-}
-
-.btn-branco:hover {
-    background-color: #ce6a8a;
+.btn-vinho a {
     color: white;
 }
 
-.btn-branco:hover a {
+.btn-vinho:hover {
+    background-color: #320e1f;
+    color: white;
+}
+
+.btn-vinho:hover a {
     text-decoration: none;
     color: white;
 }
@@ -85,14 +93,13 @@ nav.navbar-transparente {
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    text-transform: uppercase;
     transition: background 0.4s,color 0.4s;
     padding: 5px 10px;
-    border-color: #ce6a8a;
+    border-color: #320e1f;
 }
 
 .btn-rosa {
-    background-color: #ce6a8a;
+    background-color: #320e1f;
     color: white;
 }
 .btn-rosa a {
@@ -100,11 +107,11 @@ nav.navbar-transparente {
 }
 .btn-rosa:hover {
     background-color: white;
-    color: #ce6a8a;
+    color: #320e1f;
 }
 
 .btn-rosa:hover a {
-    color: #ce6a8a;
+    color: #320e1f;
     text-decoration: none;
 }
 
@@ -113,12 +120,11 @@ nav.navbar-transparente {
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    text-transform: uppercase;
     transition: background 0.4s,color 0.4s;
     padding: 10px 10px;
-    font-size: 2em;
-    margin-top: 30%;
-    border-color: white;
+    font-size: 1.4em;
+    margin-top: 35%;
+    border-color: #320e1f;
     border-width: 3px;
 }
 
@@ -133,7 +139,6 @@ nav.navbar-transparente {
     background-color: inherit;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -144,22 +149,26 @@ nav.navbar-transparente {
 }
 
 #cilios {
-    background: #ce6a8a;
-    color: white;
+    background: url(../img/grafismo-eos-web-3.jpg);
+    background-attachment: fixed;
+    background-color: inherit;
+    color: #fad7e2;
     padding: 1em;
 }
 
-#cilios h3 {
-    color: #320e1f;
+#cilios h3, #cilios h2 {
+    color: #ce6a8a;
 }
 
 #sobrancelhas {
-    background:#fad7e2;
-    color: #320e1f;
+    background: url(../img/grafismo-eos-web-3.jpg);
+    background-attachment: fixed;
+    background-color: inherit;
+    color: #fad7e2;
     padding: 1em;
 }
 
-#sobrancelhas h3 {
+#sobrancelhas h3, #sobrancelhas h2 {
     color: #ce6a8a;
 }
 
@@ -168,7 +177,6 @@ nav.navbar-transparente {
     background-color: inherit;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -177,12 +185,14 @@ nav.navbar-transparente {
     color: white;
 }
 #unhas {
-    background: #320e1f;
+    background: url(../img/grafismo-eos-web-3.jpg);
+    background-attachment: fixed;
+    background-color: inherit;
     color: #fad7e2;
     padding: 1em;
 }
 
-#unhas h3 {
+#unhas h3, #unhas h2 {
     color: #ce6a8a;
 }
 
@@ -191,7 +201,6 @@ nav.navbar-transparente {
     background-color: inherit;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
@@ -201,19 +210,29 @@ nav.navbar-transparente {
 }
 
 #cursos h2{
-    color: #ce6a8a;
+    color: #320e1f;
 }
 
 #cursos h3{
-    color: #ce6a8a;
+    color: #320e1f;
 }
 
 /* Rodapé */
 footer {
+    width: 100%;
     background: black;
     padding: 50px 0 20px 0;
     position: relative;
     color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
 }
 
 footer h4 {
@@ -231,14 +250,11 @@ footer a:hover {
     color: #ce6a8a;
 }
 
-footer ul {
-    list-style: none;
+.redes-sociais{
+    display: flex;
+    justify-content: center;
 }
 
-footer ul li {
-    float: right;
-    margin: 0 5px;
-}
 /* Tipografia */
 h1 {
     font-weight: 500;
@@ -249,14 +265,22 @@ h1 {
 
 h2 {
     font-size: 3em;
-    font-weight: 650;
-    letter-spacing: -0.02em;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
 }
 
 h3 {
     font-size: 2em;
     font-weight: 700;
     letter-spacing: -0.04em;
+    line-height: 1.1;
+}
+
+p {
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
 }
 
 
@@ -267,10 +291,13 @@ h3 {
         font-size: 1em;
     }
     h2{
-        font-size: 2.5em;
+        font-size: 2.1em;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        line-height: 1.1
     }
     .capa h2 {
-        margin-top: 100%;
+        margin-top: 70%;
         font-size: 1.5em;
     }
     h3 {
@@ -280,20 +307,24 @@ h3 {
     }
     .btn-custom3 {
         margin-top: 100%;
-        font-size: 1.2em;
+        font-size: 1.0em;
+        margin-left: 0;
     }
  }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
     h2{
-        font-size: 2.5em;
+        font-size: 2.3em;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        line-height: 1.1;
     }
     .btn-custom {
         margin: 10px 15px;
     }
     .capa h2 {
-        margin-top: 100%;
+        margin-top: 70%;
         font-size: 1.5em;
     }
     h3 {
@@ -303,7 +334,7 @@ h3 {
     }
     .btn-custom3 {
         margin-top: 100%;
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
  }
 
@@ -313,7 +344,6 @@ h3 {
         font-size: 4em;
     }
     .capa h2 {
-        margin-top: 100%;
         font-size: 1.5em;
     }
  }
