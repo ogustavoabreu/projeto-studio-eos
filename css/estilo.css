@@ -223,6 +223,19 @@ nav.navbar-transparente {
     color: #ce6a8a;
 }
 
+#cilioscurso {
+    background: url(../img/grafismo-eos-rosa-web.jpg);
+    background-attachment: fixed;
+    background-color: inherit;
+    color: #2d2a2a;
+    font-size: 1.2rem;
+    padding: 0px 5px;
+}
+
+#cilioscurso h3, #cilioscurso h2 {
+    color: #320e1f;
+}
+
 /* Rodapé */
 footer {
     width: 100%;
